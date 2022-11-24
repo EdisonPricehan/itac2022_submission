@@ -5,6 +5,11 @@
 git clone --recursive git@github.com:EdisonPricehan/itac2022_submission.git
 ```
 
+## If private 'code' directory pull failed
+```commandline
+git submodule init && git submodule update
+```
+
 ## Pull
 ```commandline
 git pull && git submodule foreach 'git pull origin main'
